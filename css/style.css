@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700,900');
+body{
+	font: 300 17px/1.6 'Raleway', sans-serif;
+	text-align: center;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 8px;
+	max-width: 1200px;
+	//background: url(../img/img.jpg) 50% no-repeat;
+	// display: flex;
+	// text-align: left;
+	// min-height: 100vh;
+	/* position: relative; */
+}
+.ba-intro-body{
+	 display: flex;
+		 text-align: left;
+		 min-height: 100vh;
+		 position: relative;
+		 flex-direction: column;
+		 align-items: flex-start;
+}
+
+.ba-menu li:first-child{
+	border-top: 3px solid #ef4f21;
+
+}
+.ba-menu li:hover{
+	border-top: 3px solid #ffd5c9;
+
+}
+.ba-box__title{
+
+	font-family: 'Raleway', sans-serif;
+	color:  #ffffff;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-bottom: 48px;
+}
+.ba-box__content{
+	font-family: 'Raleway', sans-serif;
+	color:  #ffffff;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top:0;
+}
+.ba-section-about{
+	background: url(../img/fon-2.jpg) 50% no-repeat;
+	background-size: cover;
+
+}
+
+.ba-width-1-2{
+	float: left;
+}
+.ba-nav ul{
+//	padding-left: 0;
+
+}
+li {
+	list-style-type: none; /* Убираем маркеры */
+}
+a{text-decoration: none;/*Убираем подчеркивания ссылок*/
+	color:  #262626;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	padding: 20px;
+	background: #ff6033;
+	border: 3px;
+	color: #ffd5c9;
+	font: 300 20px/1.35 'Raleway', sans-serif;
+	color:  #ffffff;
+	text-align: left;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #ffd5c9;
+
+	color: #ff6033;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-about__plate{
+	padding: 44px 0 83px 269px;
+}
+.ba-section-about.ba-grid .ba-width-1-2 img {
+	float: left;
+	padding-left: 306px;}
+	.ba-grid .ba-width-1-2 .ba-box {
+		float: left;
+		padding: 132px 0 0 72px;}
+		.ba-logo{
+			float: left;
+	    //padding: 25px 0px 0px 43px;
+	    //width: 20%;
+
+	}
+	.ba-menu{
+//margin: auto;
+list-style: none;
+}
+.ba-intro{
+	background: url(../img/img.jpg) 50% no-repeat;
+	background-size: cover;
+	padding:20px;
+}
+.ba-header a,
+.ba-nav{
+	display:inline-block;
+}
+.ba-nav{
+	float: right;
+	float: right;
+	margin-top: 0px;
+	//margin-left: 447px;
+}
+.ba-header{
+	font: 700 16px/1.6 'Raleway', sans-serif;
+	font-family: Raleway;
+	text-align: right;
+	position:fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	padding-top: 50px;
+	padding-bottom: 25px;
+
+}
+.ba-nav li{
+	display:inline-block;
+	margin-right: 34px;
+}
+.ba-nav li:last-child {
+	margin-right: 0px;
+}
+.ba-intro__title{
+	font: 800 60px/0.4 'Raleway', sans-serif;
+	color:  #262626;
+	text-align: left;
+	margin-bottom: 0;
+}
+.ba-intro-body{
+//display: flex;
+	   //flex-direction: column;
+	 // align-items: flex-start;
+	   //justify-content: center;
+	   //text-align: left;
+	  // padding-top: 18px;
+	      // padding-left: 0px;
+	      padding-top: 340px;
+	      padding-bottom: 200px;
+	  }
+	  .ba-intro-body p{
+	  	padding-top: 18px;
+	  }
+
+
+.ba-intro-body{
+	position:relative;
+}
+.ba-scroll{
+	display: block;
+	width: 23px;
+	height: 37px;
+	position: absolute;
+	bottom: 115px;
+	left: 15px;
+	margin-left: 550px;
+	background: url(../img/scroll.png) 50% no-repeat;
+	background-size: cover;
+}
+.ba-scroll:hover{
+	opacity: .5;
+
+	background: red ;
+	border-radius: 50px;
+	border: 2px solid black;
+}
+
+.ba-menu-2 li {
+	//padding:20px 0 20px 0;
+	background: #ffffff;
+	//margin-bottom: 20px;
+	background-color: #ffffff;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	color: #262626;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	padding: 12px 28px 38px 68px;
+	margin-top: 12px;
+
+}
+.ba-menu-2 li a{
+	color: #262626;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+}
+.ba-menu-text{
+	background-color: #ffffff;
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	color: #262626;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	padding: 12px 28px 38px 68px;
+	margin-top: 12px;
+}
+/*.ba-menu-2 .ba-list-first{
+	background: url(../img/icon-1.svg) ;
+
+	}*/
+	.ba-section-gallery{
+		background: url(../img/fon-4.jpg) 50% no-repeat;
+		background-size: cover;
+		min-height: 100vh;
+	}
+	.ba-title-4{
+		font-family: 'Raleway',sans-serif;
+		color:  #262626;
+		font-size: 90px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+		line-height: 27px;/* Приближение из-за подстановки шрифтов */
+		text-align: center;
+		margin-bottom: 64px;
+		padding-top: 122px;
+	}
+	.ba-contant-4 p{
+		margin-bottom: 39px;
+	}
+	.ba-button-4{
+		margin-top: 50px;
+		    margin-bottom: 120px;
+	}
+	.ba-button-4:hover{
+		margin-top: 50px;
+		    margin-bottom: 120px;
+	}
+
+/*третя частина*/
+.ba-our-services{
+	background: #70bfff ;
+	background-size: cover;
+	padding: 167px 0 96px 0;
+}
+.ba-menu-3 li {
+	//padding:20px 0 20px 0;
+	background: #ffffff;
+	//margin-bottom: 20px;
+
+	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
+	color: #262626;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: center;
+	//padding: 12px 28px 38px 68px;
+	margin-top: 12px;
+
+}
+.third h5{
+	padding: 19px 19px 26px 30px;
+	    text-align: center;
+	    /* padding: 0; */
+	    margin: 0;
+}
+.third img{
+	padding: 20px 27px 0 35px;
+}
+.ba-menu-3 li a{
+	color: #262626;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	background: #ffffff;
+	float: right;
+margin-bottom: 20px;
+}
+/*img{
+	padding: 28px 27px 0 66px;
+}*/
+h5{padding: 4px 32px 5px 70px;
+	font-family: 'Raleway', sans-serif;
+	color:  #262626;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: right;
+}
+.ba-menu-3 li a h5{
+	float: left;
+
+}
+.ba-menu-3 li a svg{
+	float: left;
+
+}
+.ba-width-1-2 .ba-tomato{
+	padding: 0px 0 0 0;
+	    margin: -62px 0 0px 71px;
+	}
+/*пята частина*/
+
+.ba-intro-body-5 p{
+	font-family: 'Raleway';
+	color:  #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.ba-content-5{
+text-align:left;
+font-family: 'Raleway',sans-serif;
+color:  #262626;
+font-size: 40px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 27px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+.ba-content-5 input:first-child{
+	font-family: 'Raleway';
+	color:  #262626;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	width: 573px;
+	    height: 57px;
+	    padding-left: 16px;
+	    margin-right: 20px;
+}
+.ba-content-5 input:last-child{
+	font-family: 'Raleway';
+	color:  #ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 27px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	background-color:  #96b92c;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+	padding: 13px 35px 15px 25px;
+}
+
+.ba-intro-body-5{
+	background: url(../img/fon-5.jpg);
+	background-size: cover;
+	min-height: 50vh;
+}
+.ba-intro-body-6{
+	background: linear-gradient(45deg, rgb(108, 10, 185), rgb(216, 138, 237));
+}
+.title-6{
+	font-family: 'Raleway',sans-serif;
+	color:  #ffffff;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	padding-top: 100px;
+}
+.ba-work-6{
+	display: block;
+	position:relative;
+}
+.ba-work-6 img{
+	display: block;
+}
+.ba-work__title{
+	position:absolute;
+	left: 20px;
+	bottom: 100px;
+	color:  #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0;
+	text-align: left;
+	font: 700 20px/1.25 'Raleway',sans-serif;
+}
+.ba-work-6 p{
+	position:absolute;
+	left: 20px;
+	bottom: 40px;
+	color:  #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 0;
+	text-align: left;
+	font:300 13px/1.9 'Raleway',sans-serif;
+
+}
+.ba-work-6 .ba-title-img{
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	color:  #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+	text-align: left;
+	font:800 21px/1.2 'Raleway',sans-serif;
+	}
+	.ba-work-6 .ba-title-img .first{
+		color:  #ffffff;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-align: left;
+		font-family: 'Raleway';
+		font-size: 32px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+		line-height: 25px;/* Приближение из-за подстановки шрифтов */
+		}
+.ba-button-6{
+	background-color:  #f72b3b;
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+margin-top: 50px;
+margin-bottom: 120px;
+}
+//seven part
+.ba-payment-text-right{
+	float: center;
+
+}
+.ba-text-right{
+	float:left;
+	text-align: left;
+	padding-left: 170px;
+}
+
+.ba-payment__body{
+	float: left;
+}
+#auskteez_tran,
+#your_email,
+#phone_number,
+#your_messge{
+	width: 500px;
+	height:50px;
+	margin-bottom:15px;
+	padding-left:20px;
+
+}
+.ba-payment__header .ba-payment__title{
+	font-family: 'Raleway',sans-serif;
+	color:  #262626;
+	font-size: 90px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.ba-payment__header .ba-payment-text-top{
+	font-family: 'Raleway',sans-serif;
+	color:  #262626;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+.ba-payment__title{
+	margin-bottom: 64px;
+	margin-top: 72px;
+	margin-left: 170px;
+}
+.ba-payment-text-top{
+	margin-left: 181px;
+	margin-bottom: 47px;
+}
+.ba-auskteez_tran input{
+	background-color: #00c4c4;
+	color:  #ffffff;
+}
+.ba-your_email input,
+.ba-phone_number input,
+.ba-your_messge textarea
+{
+	background-color: #7ee0e0;
+	border: 0;
+	color:  #ffffff;
+
+}
+.ba-your_email input:hover,
+.ba-phone_number input:hover,
+.ba-your_messge textarea:hover
+{
+	background-color: #00c4c4;
+}
+.ba-payment input[type="text"]:focus,
+ .ba-payment input[type="email"]:focus,
+ .ba-payment input[type="password"]:focus,
+ .ba-payment input[type="number"]:focus,
+ .ba-payment input[type="tel"]:focus,
+ .ba-payment textarea:focus,
+ .ba-payment select:focus {
+ 	border: 1px solid #355b82;
+ 	outline: none;
+ }
+ .ba-payment input{
+ 	margin-bottom: 15px;
+ 	color: #FFF;
+ 	background-color:  rgba(0, 196, 196, 0.5);
+ 	max-width: 500px;
+ 	padding: 0 0 0 20px;
+ 	border: none;
+ 	font-size: 15px;
+ 	font-weight: 300;
+ 	line-height: 1.1;
+ 	max-height: 50px;
+ }
+.seven{
+	background: #ccffff url(../img/fon-7.jpg) 50%;
+	    background-size: cover;
+	    padding-top: 35px;
+	        padding-bottom: 570px;
+}
+.ba-your_messge textarea{
+	min-height: 250px;
+
+	top: 0;
+}
+//footer
+footer .ba-footer{
+	background:  #262626;
+	margin:20px 0 20px;
+}
+.ba-footer__text p:first-child{
+	float: left;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+
+}
+.ba-footer__text a{
+	float: initial;
+}
+.ba-footer__text p:last-child{
+	float: right;
+	display:inline-block;
+
+}
+.ba-footer__text p{
+	font-family: 'Raleway';
+	color:  #b9b9b9;
+	font-size: 15px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 25px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+footer img{
+	height: 27px;
+	    width: 64px;
+}
